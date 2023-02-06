@@ -1,0 +1,368 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar-track { /*FUNDO DA SCROLLBAR*/
+    background-color: #F4F4F4;
+}
+::-webkit-scrollbar { /*LARGURA DA SCROLLBAR*/
+    width: 10px;
+    background: #F4F4F4;
+}
+
+::-webkit-scrollbar-thumb { /*A SCROLLBAR*/
+    background: #101035;
+}
+
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.azul-escuro{
+    background-color: #01030E;
+}
+
+.azul-claro{
+    background-color: #060917;
+}
+
+header{
+    background-color: #00001C;
+}
+
+.logo{
+    transition: .5s;
+}
+
+.logo:hover{
+    opacity: 0.7;
+}
+
+.menu-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.menu-desktop a, .menu-mobile a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    margin-left: 35px;
+    font-size: 20px;
+    font-weight: 300;
+    transition: .5s;
+}
+
+.menu-desktop a:hover{
+    color: #5f5fff;
+}
+
+.menu-mobile{
+    display: none;
+}
+
+.sobre-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px 0;
+}
+
+.perfil{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.texto-sobre-mim{
+    color: white;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 550px;
+    width: 100%;
+}
+
+.texto-sobre-mim h1{
+    width: 100%;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 26px;
+}
+
+.texto-sobre-mim p{
+    text-align: justify;
+    font-size: 20px;
+    margin-top: 8px;
+}
+
+.subtitulo{
+    color: white;
+    text-transform: uppercase;
+    padding: 20px;
+    text-align: center;
+}
+
+.icon-skills{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.icons{
+    text-align: center;
+    margin: 0 10px;
+}
+
+.icons img{    
+    width: 100px !important;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.icons img:hover{
+    opacity: 0.7;
+    transform: scale(1.05);
+}
+
+.icons p{
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 8px;
+    font-size: 21px;
+}
+
+.vitrine-projetos{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+.container-projeto{    
+    position: relative;
+    color: white;
+    max-width: 300px;
+    width: 100%;
+    background-color: #03032C;
+    border-radius: 15px;
+    box-shadow: 0 0 3px 1px #111177;
+    cursor: pointer;
+    transition: .5s;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.container-projeto:hover{
+    transform: scale(1.05);
+}
+
+.container-img{
+    width: 100%;
+    height: 170px;
+    background-color: #16168E;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-img img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.container-img p{
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: bold;    
+}
+
+.container-descricao{
+    height: 240px;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.btn-aovivo button{    
+    background-color: #000018;
+    color: white;
+    max-width: 200px;
+    width: 100%;
+    height: 35px;
+    border: 0;
+    border-radius: 10px;
+    position: absolute;
+    left: 50px;
+    bottom: -15px;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 0 3px 1px #111177;
+    transition: .5s;
+}
+
+.btn-aovivo button:hover{
+    background-color: rgba(0, 0, 24, 0.7);
+}
+
+.github{
+    text-align: center;
+}
+
+.github h3{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.github img{
+    margin: 8px 0 15px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.pensamentos-wrapper{
+    padding: 40px;
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.perfil-autor{
+    display: flex;
+    justify-content: center;
+}
+
+.perfil-autor img{
+    width: 150px;
+}
+
+.pensamento{
+    color: white;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.nome-autor{
+    color: white;
+    text-align: right;
+    display: flex;
+    justify-content: right;
+}
+
+.nome-autor p{
+    border-bottom: 1px solid white;
+    font-style: italic;
+}
+
+.form-contato{
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+form{
+    width: 100%;
+}
+
+.inputs-wrapper{
+    display: flex;
+}
+
+.input{
+    width: 50%;
+    padding: 10px;
+}
+
+.input input, textarea{
+    width: 100%;
+    height: 35px;
+    font-size: 17px;
+    border: 0;
+    border-radius: 3px;
+    padding-left: 3px;
+    margin-top: 3px;
+}
+
+.input input{
+    line-height: 35px;
+}
+
+.input input:focus, textarea:focus{
+    outline: none;
+}
+
+label{
+    color: white;
+    display: block;
+}
+
+.textarea{
+    padding: 10px;
+}
+
+textarea{
+    width: 100%;
+    height: 300px;
+    padding-top: 5px;
+    resize: none;
+}
+
+.btn-contato{
+    width: 100%;
+    text-align: center;
+}
+
+.button{
+    padding: 10px 60px;
+    margin: 5px 0px 20px;
+    cursor: pointer;
+    border: 0;
+    font-size: 21px;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: #03032C;
+    box-shadow: 0 0 3px 1px #111177;
+    transition: .5s;
+}
+
+.button:hover{    
+    background-color: rgba(4, 4, 75, 0.7);
+}
+
+footer{
+    padding: 20px;
+    text-align: center;
+    color: white;
+    background-color: #00001C;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: .5s;
+}
+
+footer a:hover{
+    opacity: .7;
+}

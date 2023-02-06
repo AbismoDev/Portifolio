@@ -1,0 +1,89 @@
+html, body{
+    height: 100%;
+}
+
+section{
+    display: flex;
+    align-items: center;
+}
+
+.mensagem-obrigado{
+    text-align: center;
+    padding: 50px 2% 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.titulo-obrigado{
+    color: white;
+    text-transform: uppercase;
+    font-size: 28px;
+}
+
+.texto-obrigado{
+    color: white;
+    font-size: 20px;
+    width: 100%;
+    max-width: 600px;
+    margin: 20px;
+}
+
+.container-social{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 2%;
+}
+
+.icon-social{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px 0;
+    max-width: 600px;
+    width: 100%;
+}
+
+.icon{
+    transition: .5s;
+}
+
+.icon img{
+    width: 32px;
+}
+
+.icon:hover{
+    opacity: .7;
+}
+
+.voltar{
+    text-align: center;
+    padding: 63.5px;
+}
+
+.voltar span{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.voltar a{
+    text-decoration: none;
+    color: white;
+    transition: .5s;
+}
+
+.voltar a:hover{
+    opacity: .7;
+}
+
+@media (min-height: 650px) {
+
+    section{
+        height: calc(100% - 154px);
+    }
+}

@@ -1,0 +1,123 @@
+@media  (max-width: 1024px) {
+    .sobre-wrapper{
+        flex-direction: column;
+    }
+
+    .texto-sobre-mim{
+        margin-top: 20px;
+        padding: 0 2%;
+    }
+
+    .texto-sobre-mim h1{
+        text-align: center;
+    }
+
+    .vitrine-projetos{
+        flex-wrap: wrap;
+    }
+}
+
+@media  (max-width: 999px) {  
+    .container-projeto:last-child{
+        margin-top: 50px;
+    }
+}
+
+@media  (max-width: 768px) {
+    .menu-desktop{
+        display: none;
+    }
+
+    .menu-mobile{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo img{
+        width: 250px;
+    }
+
+    #links-menu{
+        position: absolute;
+        background-color: #060917;
+        max-width: 200px;
+        width: 100%;
+        text-align: right;
+        top: 75px;
+        right: 10px;
+    }
+
+    #links-menu ul{
+        list-style: none;
+    }
+
+    #links-menu ul li{
+        padding: 10px;
+        border-bottom: 1px solid white;
+    }
+
+    #links-menu ul li:last-child{
+        border-bottom: 0;
+    }
+
+    .menu-mobile img{
+        width: 45px;
+    }
+
+    .perfil{
+        padding: 0 2%;
+    }
+
+    .perfil img{
+        width: 300px;
+    }
+
+    .icon-skills{
+        flex-wrap: wrap;
+    }
+
+    .vitrine-projetos{
+        flex-wrap: nowrap;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .container-projeto{
+        margin: 30px auto !important;
+    }
+
+    .nome-autor{
+        margin-top: 10px;
+    }
+
+    .inputs-wrapper{
+        flex-wrap: wrap;
+    }
+
+    .input{
+        width: 100%;
+    }
+}
+
+@media (max-width: 420px) {  
+    .logo img{
+        width: 200px;
+    }
+
+    .menu-mobile img{
+        width: 30px;
+    }
+
+    #links-menu{
+        top: 60px;
+        right: 8px;
+    }
+
+    .perfil img{
+        width: 200px;
+    }
+
+    .icons:last-child{
+        margin-top: 20px
+    }
+}
